@@ -19,7 +19,7 @@ app = Flask(__name__)
 @app.route('/',methods=['GET'])  # route to display the home page
 @cross_origin()
 def homePage():
-    return render_template("landing-page.html")
+    return render_template("index.html")
 
 @app.route('/view-course',methods=['GET'])  # route to display the home page
 @cross_origin()
